@@ -30,6 +30,16 @@ public class Baller {
         return potenialAbility;
     }
 
+    public  class Player {
+        int currentAbility;
+        String nae;
+    }
+
+    public static int calculatePotentialAbility(Player player) {
+        int potenialAbility =  player.currentAbility *2 + player.nae.length() + 1;
+        return potenialAbility;
+    }
+
 
 
 }
